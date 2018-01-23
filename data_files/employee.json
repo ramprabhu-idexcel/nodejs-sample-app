@@ -1,0 +1,72 @@
+[
+	{
+		"id": "1",
+		"name": "Arvind Sahu",
+		"employee_code": "NBC001",
+    "designation": "Architect",
+    "location": "Bangalore"
+	},
+  {
+		"id": "2",
+		"name": "Gita Suri",
+		"employee_code": "NBC002",
+    "designation": "Software Engineer",
+    "location": "Bangalore"
+	},
+  {
+		"id": "3",
+    "name": "Ramesh Jaiswal",
+    "employee_code": "NBC003",
+    "designation": "Software Engineer",
+    "location": "Kolkata"
+  },
+  {
+		"id": "4",
+    "name": "Bhawna Jaiswal",
+    "employee_code": "NBC004",
+    "designation": "Software Engineer",
+    "location": "Kolkata"
+  },
+  {
+		"id": "5",
+    "name": "Shankar Dev",
+    "employee_code": "NBC005",
+    "designation": "Project Manager",
+    "location": "Kolkata"
+  },
+	{
+		"id": "6",
+    "name": "Ram Guru",
+    "employee_code": "NBC006",
+    "designation": "Senior Manager",
+    "location": "Chennai"
+  },
+	{
+		"id": "7",
+    "name": "Karun Karish",
+    "employee_code": "NBC007",
+    "designation": "Senior Developer",
+    "location": "Pune"
+  },
+	{
+		"id": "8",
+    "name": "Praveen Chavukar",
+    "employee_code": "NBC008",
+    "designation": "Project Manager",
+    "location": "Kolkata"
+  },
+	{
+		"id": "9",
+    "name": "Mahesh Pandian",
+    "employee_code": "NBC009",
+    "designation": "Delivery Manager",
+    "location": "Mumbai"
+  },
+	{
+		"id": "10",
+    "name": "Gaurva Guru",
+    "employee_code": "NBC010",
+    "designation": "Senior Developer",
+    "location": "Chennai"
+  }
+]

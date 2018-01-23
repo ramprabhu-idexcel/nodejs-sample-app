@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+    <link rel='stylesheet' href='/stylesheets/style.css'>
+</head>
+<body class="container">
+
+<header>
+    <% include ../partials/header %>
+</header>
+
+<main>
+    <div style="padding-top:15px;">
+      <table border="1" class="mytable">
+        <tr>
+          <td>Name</td>
+          <td>Code</td>
+          <td>Designation</td>
+          <td>Location</td>
+          <td>Action</td>
+        </tr>
+        <% employees.forEach(employee => { %>
+          <tr>
+            <td><a href="/employees/<%= employee.id%>"><%= employee.name %></a></td>
+            <td><%= employee.employee_code %></td>
+            <td><%= employee.designation %></td>
+            <td><%= employee.location %></td>
+            <td>
+              <span><button type="submit">Edit</button></span>
+              <span><button type="submit">Save</button></span>
+              <span><input type="button" value="Delete"/></span>
+            </td>
+          </tr>
+       <% }) %>
+      </table>
+      </div>
+      <br/>
+      <br/>
+    </div>
+</main>
+<footer>
+    <% include ../partials/footer %>
+</footer>
+
+</body>
+</html>
